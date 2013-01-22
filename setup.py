@@ -12,25 +12,28 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
+execfile('salut/version.py')
+
+
 from setuptools import setup
-from salut import __version__
 
 
 setup(
-    name='salut',
+    name=__title__,
     version=__version__,
-    py_modules=['salut'],
+    packages=['salut'],
 
-    install_requires=['pybonjour'],
+    install_requires=['gevent', 'pybonjour'],
 
     tests_require=['nose'],
     test_suite='nose.collector',
 
-    author='Max Persson',
+    author=__author__,
     author_email='max@looplab.se',
     description='Gevent based wrapper for pybonjour',
-    license='Apache License 2.0',
-    url='https://github.com/looplab/salut',
+    license=__license__,
+    url=__project_url__,
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Console',
