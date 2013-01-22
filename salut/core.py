@@ -13,10 +13,6 @@
 # limitations under the License.
 
 
-__version__ = '0.1.0'
-__project_url__ = 'https://github.com/looplab/salut'
-
-
 from gevent import monkey
 monkey.patch_select()
 
