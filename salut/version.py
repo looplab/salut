@@ -14,7 +14,7 @@
 
 
 __title__ = 'salut'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __author__ = 'Max Persson'
 __license__ = 'Apache License 2.0'
 __copyright__ = 'Copyright 2013 Max Persson'
