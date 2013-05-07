@@ -10,7 +10,6 @@ dist
 build
 eggs
 parts
-bin
 var
 sdist
 develop-eggs
@@ -33,3 +32,9 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+.DS_Store
+tmp

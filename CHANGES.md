@@ -8,7 +8,7 @@ before version 1. Read more at http://semvar.org
 Version 0.1.2
 -------------
 
-Released on January 22nd 2012
+Released on January 22nd 2013
 
 - Include this changes file with setup
 
@@ -16,7 +16,7 @@ Released on January 22nd 2012
 Version 0.1.1
 -------------
 
-Released on January 22nd 2012
+Released on January 22nd 2013
 
 - Add readme and license files with setup
 
@@ -24,6 +24,6 @@ Released on January 22nd 2012
 Version 0.1.0
 -------------
 
-Released on January 22nd 2012
+Released on January 22nd 2013
 
 - First release
