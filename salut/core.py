@@ -85,7 +85,10 @@ class Browser(object):
         while True:
             ready = gevent.select.select([self._browse_ref], [], [])
             if self._browse_ref in ready[0]:
-                pybonjour.DNSServiceProcessResult(self._browse_ref)
+                try:
+                    pybonjour.DNSServiceProcessResult(self._browse_ref)
+                except pybonjour.BonjourError:
+                    pass
 
     def _browse_stop(self, task):
         if self._browse_ref:

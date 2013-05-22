@@ -5,6 +5,14 @@ Salut follows the Semantic Versioning standard, although not for development
 before version 1. Read more at http://semvar.org
 
 
+Version 0.1.3
+-------------
+
+Released on May 22nd 2013
+
+- Fix a bug that happens when browsing before network is up
+
+
 Version 0.1.2
 -------------
 
