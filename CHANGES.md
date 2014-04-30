@@ -5,6 +5,14 @@ Salut follows the Semantic Versioning standard, although not for development
 before version 1. Read more at http://semvar.org
 
 
+Version 0.1.6
+-------------
+
+Released on April 30nd 2014
+
+- Add allow external for pybonjour in requirements.txt
+
+
 Version 0.1.5
 -------------
 

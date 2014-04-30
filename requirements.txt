@@ -1,5 +1,7 @@
 # Main lib
---allow-external --allow-unverified pybonjour
+--allow-external pybonjour
+--allow-unverified pybonjour
+pybonjour
 gevent
 
 # Testing
