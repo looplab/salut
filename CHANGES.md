@@ -5,6 +5,14 @@ Salut follows the Semantic Versioning standard, although not for development
 before version 1. Read more at http://semvar.org
 
 
+Version 0.1.4
+-------------
+
+Released on May 30nd 2014
+
+- Fix a bug when the FQDN is returned from browsing services
+
+
 Version 0.1.3
 -------------
 

@@ -1,6 +1,6 @@
 # Main lib
-pybonjour
-http://gevent.googlecode.com/files/gevent-1.0rc2.tar.gz
+--allow-unverified pybonjour
+gevent
 
 # Testing
 nose

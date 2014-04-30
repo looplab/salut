@@ -137,5 +137,6 @@ class Browser(object):
             self._resolved.append(True)
             self.resolved = True
             if hasattr(self._resolved_callback, '__call__'):
+                hosttarget = hosttarget.split('.')[0]
                 ip = gevent.socket.gethostbyname(hosttarget)
                 self._resolved_callback(ip, port)
